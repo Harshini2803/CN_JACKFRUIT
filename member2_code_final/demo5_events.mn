@@ -1,0 +1,5 @@
+h1 python3 -u server.py --controller-ip 10.0.0.100 &
+sh sleep 1
+h3 python3 -u fake_subscriber.py 10.0.0.3 normal 10.0.0.1 &
+sh sleep 2
+h2 python3 send_alerts.py 10.0.0.1 5000 CRITICAL 1 1

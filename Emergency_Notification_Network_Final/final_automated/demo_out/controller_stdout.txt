@@ -1,0 +1,33 @@
+loading app /home/harshini-ramesh/Downloads/CN_JACKFRUIT/Emergency_Notification_Network_Final/final_automated/controller.py
+loading app ryu.controller.ofp_handler
+instantiating app /home/harshini-ramesh/Downloads/CN_JACKFRUIT/Emergency_Notification_Network_Final/final_automated/controller.py of EmergencyController
+instantiating app ryu.controller.ofp_handler of OFPHandler
+Listening for server events on UDP 6000
+[LOG] 1794937734.848,SWITCH_CONNECTED,dpid=1
+[LOG] 1794937734.863,SWITCH_CONNECTED,dpid=3
+[LOG] 1794937734.870,SWITCH_CONNECTED,dpid=2
+[LOG] 1794937753.979,SUBSCRIBER_JOINED,ips=10.0.0.3 subscribers=1 emergency_active=False emergency_path=s1>s2>s3
+[LOG] 1794937753.996,SUBSCRIBER_JOINED,ips=10.0.0.5 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+[LOG] 1794937753.997,SUBSCRIBER_JOINED,ips=10.0.0.4 subscribers=3 emergency_active=False emergency_path=s1>s2>s3
+[LOG] 1794937759.043,EMERGENCY_START,ips=10.0.0.5/10.0.0.4/10.0.0.3 subscribers=3 emergency_active=True emergency_path=s1>s2>s3
+[LOG] 1794937760.046,EMERGENCY_END,ips=10.0.0.3/10.0.0.5/10.0.0.4 subscribers=3 emergency_active=False emergency_path=s1>s2>s3
+WARNING: link L23 usage 100% is above 80%: JAM
+[LOG] 1794937773.630,JAM_DETECTED,link=L23 usage=100% emergency_active=False
+[LOG] 1794937773.640,REROUTE,reason=jam state changed down=none jammed=L23 emergency_path=s1>s3 normal_path=s1>s2>s3
+[LOG] 1794937777.506,EMERGENCY_START,ips=10.0.0.5/10.0.0.4/10.0.0.3 subscribers=3 emergency_active=True emergency_path=s1>s3
+[LOG] 1794937778.510,EMERGENCY_END,ips=10.0.0.3/10.0.0.5/10.0.0.4 subscribers=3 emergency_active=False emergency_path=s1>s3
+[LOG] 1794937801.654,JAM_CLEARED,link=L23 usage=46%
+[LOG] 1794937801.669,REROUTE,reason=jam state changed down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+[LOG] 1794937807.705,LINK_DOWN,link=L12 dpid=2 port=3
+[LOG] 1794937807.721,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+[LOG] 1794937811.756,LINK_UP,link=L12
+[LOG] 1794937811.782,REROUTE,reason=link L12 up down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+[LOG] 1794937817.555,SUBSCRIBER_JOINED,ips=10.0.0.8 subscribers=4 emergency_active=False emergency_path=s1>s2>s3
+[LOG] 1794937819.577,EMERGENCY_START,ips=10.0.0.8/10.0.0.5/10.0.0.4/10.0.0.3 subscribers=4 emergency_active=True emergency_path=s1>s2>s3
+[LOG] 1794937822.581,EMERGENCY_END,ips=10.0.0.8/10.0.0.3/10.0.0.5/10.0.0.4 subscribers=4 emergency_active=False emergency_path=s1>s2>s3
+[LOG] 1794937836.000,LINK_DOWN,link=L12 dpid=2 port=3
+[LOG] 1794937836.030,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+[LOG] 1794937836.030,LINK_DOWN,link=L13 dpid=3 port=7
+[LOG] 1794937836.043,REROUTE,reason=link L13 down down=L12/L13 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE
+[LOG] 1794937836.044,LINK_DOWN,link=L23 dpid=2 port=4
+[LOG] 1794937836.047,REROUTE,reason=link L23 down down=L12/L13/L23 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE

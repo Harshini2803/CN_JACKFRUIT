@@ -1,0 +1,19 @@
+# emergency rules on s1 (to h3/h4)
+cookie=0x0, duration=17.399s, table=0, n_packets=6, n_bytes=526, priority=100,udp,nw_dst=10.0.0.3,tp_dst=9999 actions=set_queue:1,output:3
+cookie=0x0, duration=17.399s, table=0, n_packets=6, n_bytes=526, priority=100,udp,nw_dst=10.0.0.4,tp_dst=9999 actions=set_queue:1,output:3
+
+# normal rule on s1 (to h3)
+cookie=0x0, duration=17.399s, table=0, n_packets=4, n_bytes=392, priority=20,ip,nw_dst=10.0.0.3 actions=output:3
+
+# queue-stats s1
+OFPST_QUEUE reply (OF1.3) (xid=0x2): 10 queues
+  port 4 queue 0: bytes=5867, pkts=25, errors=0, duration=1993709466.3501967296s
+  port 4 queue 1: bytes=0, pkts=0, errors=0, duration=1993709466.3501967296s
+  port 1 queue 0: bytes=5909, pkts=53, errors=0, duration=1993709466.3501967296s
+  port 1 queue 1: bytes=883, pkts=12, errors=0, duration=1993709466.3501967296s
+  port 5 queue 0: bytes=4043, pkts=32, errors=0, duration=1993709466.3501967296s
+  port 5 queue 1: bytes=0, pkts=0, errors=0, duration=1993709466.3501967296s
+  port 2 queue 0: bytes=5399, pkts=47, errors=0, duration=1993709466.3501967296s
+  port 2 queue 1: bytes=0, pkts=0, errors=0, duration=1993709466.3501967296s
+  port 3 queue 0: bytes=6231, pkts=52, errors=0, duration=1993709466.3501967296s
+  port 3 queue 1: bytes=1052, pkts=12, errors=0, duration=1993709466.3501967296s

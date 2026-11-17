@@ -1,0 +1,53 @@
+timestamp,event,details
+1793802309.413,SWITCH_CONNECTED,dpid=1
+1793802309.430,SWITCH_CONNECTED,dpid=3
+1793802309.448,SWITCH_CONNECTED,dpid=2
+1793802360.069,LINK_DOWN,link=L12 dpid=2 port=3
+1793802360.209,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+1793802360.210,LINK_DOWN,link=L13 dpid=3 port=7
+1793802360.236,REROUTE,reason=link L13 down down=L12/L13 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE
+1793802360.236,LINK_UP,link=L12
+1793802360.310,REROUTE,reason=link L12 up down=L13 jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793802360.313,LINK_UP,link=L13
+1793802360.369,REROUTE,reason=link L13 up down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793802360.371,LINK_DOWN,link=L23 dpid=2 port=4
+1793802360.405,REROUTE,reason=link L23 down down=L23 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+1793802360.406,LINK_UP,link=L23
+1793802360.468,REROUTE,reason=link L23 up down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793802360.537,SWITCH_CONNECTED,dpid=1
+1793802360.577,SWITCH_CONNECTED,dpid=2
+1793802360.596,SWITCH_CONNECTED,dpid=3
+1793802836.197,SUBSCRIBER_JOINED,ips=10.0.0.3 subscribers=1 emergency_active=False emergency_path=s1>s2>s3
+1793802866.768,EMERGENCY_START,ips=10.0.0.3 subscribers=1 emergency_active=True emergency_path=s1>s2>s3
+1793802867.774,EMERGENCY_END,ips=10.0.0.3 subscribers=1 emergency_active=False emergency_path=s1>s2>s3
+1793803538.436,SUBSCRIBER_JOINED,ips=10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1793803562.187,SUBSCRIBER_JOINED,ips=10.0.0.5 subscribers=3 emergency_active=False emergency_path=s1>s2>s3
+1793803573.274,SUBSCRIBER_JOINED,ips=10.0.0.6 subscribers=4 emergency_active=False emergency_path=s1>s2>s3
+1793803583.225,SUBSCRIBER_JOINED,ips=10.0.0.7 subscribers=5 emergency_active=False emergency_path=s1>s2>s3
+1793803592.699,SUBSCRIBER_JOINED,ips=10.0.0.8 subscribers=6 emergency_active=False emergency_path=s1>s2>s3
+1793803748.089,EMERGENCY_START,ips=10.0.0.3/10.0.0.7/10.0.0.8/10.0.0.5/10.0.0.4/10.0.0.6 subscribers=6 emergency_active=True emergency_path=s1>s2>s3
+1793803749.211,EMERGENCY_END,ips=10.0.0.7/10.0.0.8/10.0.0.3/10.0.0.6/10.0.0.4/10.0.0.5 subscribers=6 emergency_active=False emergency_path=s1>s2>s3
+1793804020.895,JAM_DETECTED,link=L23 usage=86% emergency_active=False
+1793804020.956,REROUTE,reason=jam state changed down=none jammed=L23 emergency_path=s1>s3 normal_path=s1>s2>s3
+1793804026.901,JAM_CLEARED,link=L23 usage=54%
+1793804026.943,REROUTE,reason=jam state changed down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793804028.899,JAM_DETECTED,link=L23 usage=99% emergency_active=False
+1793804028.942,REROUTE,reason=jam state changed down=none jammed=L23 emergency_path=s1>s3 normal_path=s1>s2>s3
+1793804036.904,JAM_CLEARED,link=L23 usage=26%
+1793804036.958,REROUTE,reason=jam state changed down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793804173.063,LINK_DOWN,link=L12 dpid=1 port=3
+1793804173.105,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+1793804253.151,LINK_UP,link=L12
+1793804253.188,REROUTE,reason=link L12 up down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793804440.355,LINK_DOWN,link=L12 dpid=1 port=3
+1793804440.393,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+1793804471.854,EMERGENCY_START,ips=10.0.0.3/10.0.0.7/10.0.0.8/10.0.0.5/10.0.0.4/10.0.0.6 subscribers=6 emergency_active=True emergency_path=s1>s3
+1793804472.901,EMERGENCY_END,ips=10.0.0.7/10.0.0.8/10.0.0.3/10.0.0.6/10.0.0.4/10.0.0.5 subscribers=6 emergency_active=False emergency_path=s1>s3
+1793804595.363,LINK_UP,link=L12
+1793804595.395,REROUTE,reason=link L12 up down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793804622.495,LINK_DOWN,link=L13 dpid=1 port=4
+1793804622.558,REROUTE,reason=link L13 down down=L13 jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1793804622.560,LINK_DOWN,link=L12 dpid=1 port=3
+1793804622.582,REROUTE,reason=link L12 down down=L12/L13 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE
+1793804622.583,LINK_DOWN,link=L23 dpid=2 port=4
+1793804622.588,REROUTE,reason=link L23 down down=L12/L13/L23 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE

@@ -1,0 +1,4 @@
+link s1 s2 down
+sh sleep 2
+h1 ping -c 3 h3
+link s1 s2 up

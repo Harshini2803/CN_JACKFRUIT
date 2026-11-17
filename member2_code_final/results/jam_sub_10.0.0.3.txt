@@ -1,0 +1,22 @@
+[10.0.0.3] registered with 10.0.0.1:5000, mode=normal
+[10.0.0.3] got from 10.0.0.1:5000: OK|INFO|0|1794937289.0301|Registered successfully
+[10.0.0.3] got from 10.0.0.1:47464: ALERT|CRITICAL|1|1794937292.0532|Test alert 1
+[10.0.0.3] sent ACK for SEQ 1
+[10.0.0.3] got from 10.0.0.1:42841: ALERT|CRITICAL|2|1794937293.0542|Test alert 2
+[10.0.0.3] sent ACK for SEQ 2
+[10.0.0.3] got from 10.0.0.1:56391: ALERT|CRITICAL|3|1794937294.0539|Test alert 3
+[10.0.0.3] sent ACK for SEQ 3
+[10.0.0.3] got from 10.0.0.1:37961: ALERT|CRITICAL|4|1794937295.0538|Test alert 4
+[10.0.0.3] sent ACK for SEQ 4
+[10.0.0.3] got from 10.0.0.1:54909: ALERT|CRITICAL|5|1794937296.0549|Test alert 5
+[10.0.0.3] sent ACK for SEQ 5
+[10.0.0.3] got from 10.0.0.1:45736: ALERT|CRITICAL|6|1794937308.1443|Test alert 1
+[10.0.0.3] sent ACK for SEQ 6
+[10.0.0.3] got from 10.0.0.1:57726: ALERT|CRITICAL|7|1794937309.1455|Test alert 2
+[10.0.0.3] sent ACK for SEQ 7
+[10.0.0.3] got from 10.0.0.1:48074: ALERT|CRITICAL|8|1794937310.1443|Test alert 3
+[10.0.0.3] sent ACK for SEQ 8
+[10.0.0.3] got from 10.0.0.1:38113: ALERT|CRITICAL|9|1794937311.1445|Test alert 4
+[10.0.0.3] sent ACK for SEQ 9
+[10.0.0.3] got from 10.0.0.1:54919: ALERT|CRITICAL|10|1794937312.1483|Test alert 5
+[10.0.0.3] sent ACK for SEQ 10

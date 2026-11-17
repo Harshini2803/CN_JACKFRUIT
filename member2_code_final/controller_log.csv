@@ -1,0 +1,36 @@
+timestamp,event,details
+1794937284.685,SWITCH_CONNECTED,dpid=1
+1794937284.698,SWITCH_CONNECTED,dpid=3
+1794937284.708,SWITCH_CONNECTED,dpid=2
+1794937289.030,SUBSCRIBER_JOINED,ips=10.0.0.4 subscribers=1 emergency_active=False emergency_path=s1>s2>s3
+1794937289.031,SUBSCRIBER_JOINED,ips=10.0.0.3 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937292.053,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s2>s3
+1794937293.054,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s2>s3
+1794937293.055,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937294.054,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s2>s3
+1794937294.055,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937295.054,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s2>s3
+1794937295.055,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937296.055,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s2>s3
+1794937296.058,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937297.059,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s2>s3
+1794937304.963,JAM_DETECTED,link=L23 usage=100% emergency_active=False
+1794937304.980,REROUTE,reason=jam state changed down=none jammed=L23 emergency_path=s1>s3 normal_path=s1>s2>s3
+1794937308.145,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s3
+1794937309.147,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s3
+1794937309.149,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s3
+1794937310.144,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s3
+1794937310.149,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s3
+1794937311.145,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s3
+1794937311.146,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s3
+1794937312.147,EMERGENCY_START,ips=10.0.0.4/10.0.0.3 subscribers=2 emergency_active=True emergency_path=s1>s3
+1794937312.152,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s3
+1794937313.153,EMERGENCY_END,ips=10.0.0.3/10.0.0.4 subscribers=2 emergency_active=False emergency_path=s1>s3
+1794937348.992,JAM_CLEARED,link=L23 usage=11%
+1794937348.998,REROUTE,reason=jam state changed down=none jammed=none emergency_path=s1>s2>s3 normal_path=s1>s2>s3
+1794937354.663,LINK_DOWN,link=L12 dpid=1 port=3
+1794937354.692,REROUTE,reason=link L12 down down=L12 jammed=none emergency_path=s1>s3 normal_path=s1>s3
+1794937354.692,LINK_DOWN,link=L13 dpid=3 port=7
+1794937354.699,REROUTE,reason=link L13 down down=L12/L13 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE
+1794937354.714,LINK_DOWN,link=L23 dpid=3 port=8
+1794937354.720,REROUTE,reason=link L23 down down=L12/L13/L23 jammed=none emergency_path=s1>UNREACHABLE normal_path=s1>UNREACHABLE

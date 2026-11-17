@@ -1,0 +1,4 @@
+h3 iperf -s -u -p 9999 &
+h1 iperf -c 10.0.0.3 -u -p 9999 -b 2M -t 5
+sh sleep 1
+h3 pkill iperf

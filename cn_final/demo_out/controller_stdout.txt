@@ -1,0 +1,8 @@
+loading app /home/kumar-sambhav/cn_final/controller.py
+loading app ryu.controller.ofp_handler
+instantiating app /home/kumar-sambhav/cn_final/controller.py of EmergencyController
+instantiating app ryu.controller.ofp_handler of OFPHandler
+Listening for server events on UDP 6000
+[LOG] 1794925674.639,SWITCH_CONNECTED,dpid=1
+[LOG] 1794925674.646,SWITCH_CONNECTED,dpid=2
+[LOG] 1794925674.655,SWITCH_CONNECTED,dpid=3

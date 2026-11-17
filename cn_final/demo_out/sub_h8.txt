@@ -1,0 +1,8 @@
+[10.0.0.8] registered with 10.0.0.1:5000, mode=flaky
+[10.0.0.8] got from 10.0.0.1:5000: OK|INFO|0|1794924298.3697|Registered successfully
+[10.0.0.8] got from 10.0.0.1:59230: ALERT|CRITICAL|4|1794924300.4148|Test alert 1
+[10.0.0.8] flaky mode: ignoring copy 1 of SEQ 4
+[10.0.0.8] got from 10.0.0.1:59230: ALERT|CRITICAL|4|1794924300.4148|Test alert 1
+[10.0.0.8] flaky mode: ignoring copy 2 of SEQ 4
+[10.0.0.8] got from 10.0.0.1:59230: ALERT|CRITICAL|4|1794924300.4148|Test alert 1
+[10.0.0.8] sent ACK for SEQ 4

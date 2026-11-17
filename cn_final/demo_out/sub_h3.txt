@@ -1,0 +1,9 @@
+[10.0.0.3] registered with 10.0.0.1:5000, mode=normal
+[10.0.0.3] got from 10.0.0.1:5000: OK|INFO|0|1794924197.8541|Registered successfully
+[10.0.0.3] got from 10.0.0.1:50042: ALERT|INFO|1|1794924200.8504|Test alert 1
+[10.0.0.3] got from 10.0.0.1:39148: ALERT|CRITICAL|2|1794924202.9728|Test alert 1
+[10.0.0.3] sent ACK for SEQ 2
+[10.0.0.3] got from 10.0.0.1:44723: ALERT|CRITICAL|3|1794924255.7900|Test alert 1
+[10.0.0.3] sent ACK for SEQ 3
+[10.0.0.3] got from 10.0.0.1:59230: ALERT|CRITICAL|4|1794924300.4148|Test alert 1
+[10.0.0.3] sent ACK for SEQ 4
