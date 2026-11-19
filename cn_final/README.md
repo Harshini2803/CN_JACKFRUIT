@@ -351,6 +351,25 @@ Mininet when the controller is no longer running:
 ``` bash
 sudo mn -c
 ```
+## Project Demonstration Screenshots
+
+### Step 1: Network Connectivity
+![Connectivity](screenshots/01_connectivity.png)
+
+### Step 2: Emergency Alert Delivery
+![Alert Delivery](screenshots/02_alert_delivery.png)
+
+### Step 3: Emergency Traffic Priority
+![Emergency Priority](screenshots/03_emergency_priority.png)
+
+### Step 4: Congestion Detection and Rerouting
+![Congestion and Rerouting](screenshots/04_congestion_rerouting.png)
+
+### Step 5: Link Failure and Recovery
+![Link Failure](screenshots/05_link_failure.png)
+
+### Step 6: Flaky Subscriber
+![Flaky Subscriber](screenshots/06_flaky_subscriber.png)
 
 ## Troubleshooting
 
