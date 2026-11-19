@@ -89,7 +89,7 @@ source ~/ryu-env/bin/activate
 cd ~/cn_final
 ryu-manager controller.py --verbose
 ```
-if not working then replace first line with  `source ~/path to activate in ryu folder`
+If not working, replace ~/ryu-env with the actual path to your Ryu virtual environment.
 
 **Terminal 3 --- run the demo:**
 
