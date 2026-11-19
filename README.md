@@ -75,5 +75,4 @@ The main demo (`cn_final/demo.py`) covers:
 6.  Flaky subscriber acknowledgement and retransmission behaviour
 
 ## Contributors
-
-See the repository's commit history for project contributions.
+KUMAR SAMBHAV | HARSHINI RAMESH | HRISHIKESHA BHATT
