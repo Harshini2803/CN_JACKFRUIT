@@ -51,10 +51,6 @@ README](../README.md).
                                       present in the repository
   -----------------------------------------------------------------------
 
-> The separate `tests/` directory is not required for the main
-> demonstration. The congestion and rerouting scenario is included in
-> `demo.py`.
-
 ## Requirements and Environment
 
 You need a Linux VM with:
@@ -92,6 +88,7 @@ source ~/ryu-env/bin/activate
 cd ~/cn_final
 ryu-manager controller.py --verbose
 ```
+if not working then replace first line with  `source ~/path to activate in ryu folder`
 
 **Terminal 3 --- run the demo:**
 
