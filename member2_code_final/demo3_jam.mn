@@ -1,3 +1,0 @@
-h5 iperf -s -u -p 5001 &
-h9 iperf -c 10.0.0.5 -u -b 15M -t 20 -p 5001
-h5 pkill iperf
