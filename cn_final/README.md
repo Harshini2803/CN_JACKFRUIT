@@ -46,6 +46,7 @@ README](../README.md).
 
   `link_stats.csv`                    Controller port/link statistics and
                                       utilisation measurements
+  
 
   `results/`                          Retained experiment output, if
                                       present in the repository
@@ -158,6 +159,7 @@ At the end, it opens the Mininet CLI; type `exit` to leave it.
                                       ignores the first two copies of a
                                       CRITICAL alert and acknowledges the
                                       third copy
+                                      
   -----------------------------------------------------------------------
 
 ### Congestion thresholds
@@ -227,6 +229,7 @@ retry limit.
   `--ctrl-log PATH`                   Specifies the controller log to
                                       read; default is
                                       `./controller_log.csv`
+                                      
   -----------------------------------------------------------------------
 
 Examples:
